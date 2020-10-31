@@ -41,7 +41,7 @@
 <script>
 	$(document).ready(function(){
 		$('#next').click(function(){
-			var id=$(this).data('')
+			var id=$(this).data('next')
 		})
 	})
 </script>
