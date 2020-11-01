@@ -21,7 +21,7 @@
 					while ($row=$result->fetch_assoc()) {
 						echo '<div style="display: inline;float: left;margin: 20px;">';
 						echo "<h3>".$row['subject']." Test</h3><br>";
-						echo '<a href="',$link,'.php?id=',$row['subject'],'">Take Test</a>';
+						echo '<a href="',$link,'.php?id=',$row['subject'],'&count=0">Take Test</a>';
 						echo "</div>";
 					}
 				}
